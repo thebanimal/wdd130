@@ -63,7 +63,7 @@
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: (1fr 1fr 1fr 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 75px;
 }
 .red3 {
@@ -95,7 +95,7 @@
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
   display: grid;
-  grid-template-columns: (4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 .red4 {
   width: 100%;
@@ -154,7 +154,7 @@
   height: 400px;
   width: 400px;
   display: grid;
-  grid-template-columns: (6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 .red6 {
   width: 100%;
