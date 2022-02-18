@@ -151,8 +151,8 @@
 /* Activity 6 styles */
 .content6 {
   /* This is the parent of the activity 6 boxes. */
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
