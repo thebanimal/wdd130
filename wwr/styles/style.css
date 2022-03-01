@@ -197,11 +197,15 @@ nav {
   grid-row: 5/8;
   box-shadow: 5px 5px 10px #0a2336;
 }
+.faq-main {
+  width: 80%;
+  margin: 0 auto;
+}
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
     display: block;
-    height: auto;
+    margin: 0 auto;
   }
   nav,
   footer {
@@ -241,5 +245,8 @@ nav {
   }
   footer {
     margin-top: 25px;
+  }
+  #hero-msg h1 {
+    color: #134266;
   }
 }
