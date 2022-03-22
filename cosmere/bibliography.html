@@ -17,13 +17,13 @@
         />
         <h1 class="white">THE COSMERE</h1>
       </div>
-      <nav class="dark_blue flex center">
+      <nav class="dark_blue flex center" id="navbar">
         <h2><a class="white margin" href="index.html">Home</a></h2>
         <h2><a class="white margin" href="worlds.html">Worlds</a></h2>
         <h2><a class="white margin" href="magics.html">Magics</a></h2>
       </nav>
     </header>
-    <main>
+    <main id="main">
       <h2>Bibliography</h2>
       <p>
         <b>1 -</b> Chief. (2009, November 23). <i>About Brandon.</i> Brandon
@@ -70,5 +70,28 @@
         <a class="white margin" href="bibliography.html">Bibliography</a>
       </div>
     </footer>
+    <script>
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+          main.classList.add("padding");
+        } else {
+          navbar.classList.remove("sticky");
+          main.classList.remove("padding");
+        }
+      }
+    </script>
   </body>
 </html>
