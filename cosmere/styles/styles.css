@@ -37,9 +37,6 @@ body {
 .home_grid a {
   color: #ced0d6;
 }
-.home_grid a:hover {
-  color: #b63636;
-}
 .home_grid {
   display: grid;
   grid-template-columns: 20% 1fr;
@@ -85,7 +82,6 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  color: #b63636;
   text-decoration: underline;
 }
 .center {
@@ -93,7 +89,6 @@ nav a:hover {
   align-items: center;
 }
 footer a:hover {
-  color: #b63636;
   text-decoration: underline;
 }
 footer {
@@ -103,7 +98,7 @@ footer {
 .home {
   background-color: #040c16;
 }
-main {
+.main-div {
   padding: 0 8%;
 }
 .sticky {
@@ -112,6 +107,35 @@ main {
 }
 .padding {
   padding-top: 5em;
+}
+.worlds {
+  background-color: #ced0d6;
+  color: #040c16;
+}
+a {
+  color: #040c16;
+}
+a:hover {
+  color: #b63636;
+}
+.hero {
+  width: 100%;
+  border-bottom: #1f2c3e solid 0.5em;
+}
+.worlds-main .main-div {
+  margin: 0 1em;
+}
+.worlds-main h2 {
+  margin: 0.5em 0;
+}
+.worlds-main p {
+  margin-left: 2em;
+}
+.spoilers {
+  border: #b63636 dotted 0.25em;
+}
+.spoilers h3 {
+  margin: 0;
 }
 @media screen and (max-width: 1000px) {
   p {
