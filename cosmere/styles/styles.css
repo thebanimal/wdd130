@@ -108,7 +108,7 @@ footer {
 .padding {
   padding-top: 5em;
 }
-.worlds {
+.info {
   background-color: #ced0d6;
   color: #040c16;
 }
@@ -122,13 +122,13 @@ a:hover {
   width: 100%;
   border-bottom: #1f2c3e solid 0.5em;
 }
-.worlds-main .main-div {
+.info-main .main-div {
   margin: 0 1em;
 }
-.worlds-main h2 {
+.info-main h2 {
   margin: 0.5em 0;
 }
-.worlds-main p {
+.info-main p {
   margin-left: 2em;
 }
 .spoilers {
