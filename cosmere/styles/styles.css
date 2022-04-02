@@ -137,8 +137,16 @@ a:hover {
 .spoilers h3 {
   margin: 0;
 }
+.info-main li {
+  margin-left: 2em;
+  font-family: "Libre Caslon Text", serif;
+  line-height: 2;
+}
 @media screen and (max-width: 1000px) {
   p {
+    line-height: normal;
+  }
+  .info-main li {
     line-height: normal;
   }
 }
